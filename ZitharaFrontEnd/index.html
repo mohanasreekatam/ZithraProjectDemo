@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Records</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Customer Records</h1>
+
+<input type="text" id="searchInput" placeholder="Search by Name or Location">
+<select id="sortSelect">
+  <option value="date">Sort by Date</option>
+  <option value="time">Sort by Time</option>
+</select>
+
+<table id="recordsTable">
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>Customer Name</th>
+      <th>Age</th>
+      <th>Phone</th>
+      <th>Location</th>
+      <th>Date</th>
+      <th>Time</th>
+    </tr>
+  </thead>
+  <tbody id="recordsBody">
+  </tbody>
+</table>
+
+<script src="scripts.js"></script>
+</body>
+</html>
